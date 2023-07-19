@@ -1,0 +1,150 @@
+.header{
+
+    height: 100px;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom-width: 1px ;
+    border-bottom-color: rgb(172, 168, 168);
+    border-bottom-style: solid;
+   
+  
+
+    
+  }
+
+  .left-section{
+
+ 
+    display: flex;
+    align-items: center;
+   
+  }
+  .left-section img{
+
+    height: 50px;
+   margin-top: 20px;
+   margin-left: 45px;
+   cursor: pointer;
+   transition: 0.5s;
+  }
+  .left-section img:hover{
+
+    height: 60px;
+
+
+  }
+
+  .left-section p{
+
+    margin-left: 45px;  
+    margin-top: 30px;  
+    cursor: pointer;
+    font-weight: bolder;
+    transition: 0.5s;
+  }
+  .left-section p:hover{
+
+    color: forestgreen;
+  }
+
+  .middle-section{
+
+    
+    flex: 1;
+    margin-left: 200px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+
+    
+  }
+
+  .right-section{
+
+    width: 600px;
+    height: 80px;
+    margin-left: 150px ;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+   
+  }
+
+  .sign{
+
+     height: 30px;
+     width: 80px;
+        border-radius: 18px;
+        margin-top: 20px;
+        margin-right: 8px;
+       border-style: solid;
+ 
+       cursor: pointer;
+      
+       font-size:14px;
+       font-weight: bolder;
+       background-color: rgb(255, 255, 255);
+       color: black;
+
+   
+    transition: 0.5s;
+
+    
+
+}
+.sign:hover{
+    opacity: .60;
+
+
+}
+
+.join{
+    
+    height: 30px;
+    width: 90px;
+margin-right: 80px;
+    border-radius: 18px;
+   margin-top: 20px;
+   border-style: solid;
+ 
+   cursor: pointer;
+   background-color: black;
+   color: white;
+   font-weight: bolder;
+   font-size: 13px ;
+  transition: .5s;
+
+}
+
+.join:hover{
+
+    opacity: .60;
+}
+
+.find{
+
+  font-size: 16px;
+  margin-right: 50px;
+  margin-top: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+.find:hover{
+
+    color: forestgreen;
+}
+.loc{
+    height: 28px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+  .loc:hover{
+  height:35px ;
+  }
+
+
